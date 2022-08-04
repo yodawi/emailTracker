@@ -36,7 +36,7 @@ app.get("/create/:email", (req, res, next) => {
 	try {
 	    const email = req.params.email
         console.log(email)
-        const tag = crypto.randomBytes(10).toString('hex')
+        const tag = crypto.randomBytes(64).toString('hex')
 
         firestore().collection('openTrack').doc(tag).set({
             email: email,
