@@ -1,5 +1,5 @@
 {
-  "name": "openTrack",
+  "name": "emailTracker",
   "description": "Free and open source email tracker",
   "scripts": {
     "dev": "nodemon index.js",
