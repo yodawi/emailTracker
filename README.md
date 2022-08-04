@@ -1,7 +1,7 @@
 # emailTracker
 A free and opensource email tracker
 
-You can use openTrack to check everyone who has opened your email (incluiding fowarded emails).
+You can use emailTracker to check everyone who has opened your email (incluiding fowarded emails).
 
 # Usage
 You make a request (thru a browser) to the `/create/:email` replacing `:email` with the email adress of your receipient, and you will get back a webpage including the tag id (used for tracking identification) and a 1x1 white pixel image that is atually the `/opened/:tag` endpoint with a '.jpg' after the tag id.
