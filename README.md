@@ -1,4 +1,4 @@
-# openTrack
+# emailTracker
 A free and opensource email tracker
 
 You can use openTrack to check everyone who has opened your email (incluiding fowarded emails).
